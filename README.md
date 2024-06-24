@@ -7,3 +7,5 @@ Its goal was to compare the accuracy of Surprise Package Recommender systems inc
 The K nearest neighbors model failed to run due to memory issues. 
 
 We utilized user scores for the recommender systems and conducted exploratory analysis on a selection of the variables as well engineered features, including user sentiment. 
+
+We found that the SVD model had the best performance of the two tested Surprise package models. Though, the Surprise models (Baseline, SVD) and the Keras-based collaborative filtering model ultimately both had low accuracy values.
